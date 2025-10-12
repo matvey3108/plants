@@ -1,0 +1,39 @@
+@import url("styles/header.css");
+@import url("styles/learnMore.css");
+@import url("styles/about.css");
+@import url("styles/service.css");
+@import url("styles/prices.css");
+@import url("styles/contacts.css");
+@import url("styles/footer.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 134px;
+    background: #edf2ec;
+    margin: 0 auto;
+}
+
+.container {
+    height: 100%;
+    width: 85%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
