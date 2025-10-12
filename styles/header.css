@@ -1,0 +1,107 @@
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textplant {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    
+}
+
+.nav-menu {
+    display: flex;
+    gap: 46px;
+}
+
+.nav-menu li a:hover {
+    color: #e06733;
+}
+
+.home{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+}
+
+
+.aboutUs {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+    
+}
+
+.service {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+    
+}
+
+.price {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+    
+}
+
+.contacts {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+    color: #010201;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 40px;
+}
+
+.menu-navigation {
+    position: absolute;
+    background-color: #E6F6E9;
+    padding: 20px 70px 30px 50px;
+    left: -190px;
+    top: 1px;
+    transition: 2s;
+}
+
+.burger-nav {
+    width: 70px;
+}
+
+.burger-line {
+
+    width: 40px;
+    height: 1px;
+    background: #717171;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: flex;
+    }
+    
+}
+

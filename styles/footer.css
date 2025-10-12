@@ -1,0 +1,30 @@
+.container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.text_footer {
+    display: flex;
+    gap: 20px;
+}
+
+.text_github {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.footer_social_net {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container_footer {
+        flex-direction: column;
+    }
+}
