@@ -81,6 +81,9 @@
     top: 1px;
     transition: 2s;
 }
+.menu-navigation--active {
+    left: 0;
+}
 
 .burger-nav {
     width: 70px;
