@@ -43,6 +43,10 @@
     width: 158px;
     height: 44px;
     background: rgba(224, 103, 51, 0);
+    transition: 0.4s;
+}
+.button-learnMore:hover {
+    background: #e06733;
 }
 
 

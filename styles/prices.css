@@ -22,7 +22,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .accordion-btn {
@@ -44,6 +43,79 @@
     line-height: 100%;
     color: #000;
 }
+
+/* ==================================================== */
+
+.line {
+    background-color: #aea1a1;
+    width: 170px;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-inf {
+    width: 170px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: #717171;
+}
+
+.p-for-price {
+    padding: 0 0 0 40px;
+}
+
+.order-btn {
+    border-radius: 10px;
+    width: 86px;
+    height: 25px;
+    margin: 3px 0 0 38px;
+    border: none;
+}
+
+/* =========================================== */
+
+.accordion-btn {
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.price-for {
+    width: 250px;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+.price-for--active {
+    height: 135px;
+    background: #d6e7d2;
+}
+    
+.accordion-btn--active {
+    border-radius: 20px 20px 0 0;
+    background: #d6e7d2;
+}
+
 
 .price-elipse {
     width: 16px;
